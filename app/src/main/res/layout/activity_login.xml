@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!--Login Icon-->
+
+    <ImageView
+        android:id="@+id/imageRegister"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/loginicon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"/>
+
+    <!--Login Label-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"/>
+
+    <!--Users Email Address-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/emailT">
+        <EditText
+            android:id="@+id/emailEdit"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Users Password-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/passwordT"
+        android:layout_below="@+id/emailT"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Login Button-->
+
+    <Button
+        android:id="@+id/login_button"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/passwordT"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_vpn_key_white_24dp"
+        android:drawablePadding="5dp"/>
+
+    <!--Recover Password-->
+
+    <TextView
+        android:id="@+id/recoverPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Forgot Password? Recover"
+        android:layout_below="@+id/login_button"
+        android:textColor="@color/colorBlack"/>
+
+    <!--Register no account-->
+
+    <TextView
+        android:id="@+id/already_accountT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

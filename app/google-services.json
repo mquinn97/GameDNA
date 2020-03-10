@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "636425097587",
+    "firebase_url": "https://gamedna-7c629.firebaseio.com",
+    "project_id": "gamedna-7c629",
+    "storage_bucket": "gamedna-7c629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636425097587:android:d4191ed5d0d84620adf506",
+        "android_client_info": {
+          "package_name": "com.example.gamedna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636425097587-ojahfiool1ge5gmndj47o115qerusst0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamedna",
+            "certificate_hash": "a4d75509a514b4b44f19c9c4b47f8e2ae5e3b4eb"
+          }
+        },
+        {
+          "client_id": "636425097587-7ob2puqpol7lucjk3bm2rgcuvd776ktf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBj759SBNdw8qqcsT5pbO0ERPxzwIftbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636425097587-7ob2puqpol7lucjk3bm2rgcuvd776ktf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
